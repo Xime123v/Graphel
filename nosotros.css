@@ -1,0 +1,219 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.titulo{
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  font-family: arial;
+  font-weight: bold;
+  justify-content: space-around;
+}
+nav{
+  background: #24282b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  height: 70px;
+}
+ul {
+  display: flex;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 10px;
+}
+
+ul li a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial;
+}
+
+
+.texblue{
+  color :#1293d4;
+  font-weight: bold;
+}
+
+.text{
+  margin-right: 8px;
+}
+
+.raya{
+  border: #1293d4 solid 2px;
+}
+
+
+
+main h1{
+  font-family: arial;
+  font-size: 60px;
+  margin: 10px;
+}
+
+main p{
+  padding: 2%;
+  font-family: Arial;
+  
+}
+
+form {
+  background: #24282b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 90px;
+}
+
+form p{
+  color: white;
+  font-family: Arial;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+form input{
+  font-family: Arial;
+  height: 20px;
+  padding: 2% 0;
+  width: 300px;
+}
+
+form button{
+  background: #E8491D;
+    border-style: none;
+    padding: 4%;
+    margin: 0 2%;
+    color: #fff;
+}
+
+form div {
+  display: flex;
+    align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  columns: 2;
+}
+
+.containerinfo{
+  width: 55%;
+  text-transform: none;
+
+}
+
+
+
+
+
+.nosotros {
+  margin-top: 4%;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-family: arial;
+  margin-left:3% ;
+}
+
+.containerinfo div{
+  margin: 10px;
+  width: 94%;
+  padding: 2%;
+}
+
+.containerinfo img{
+  width: 98%;
+  margin-left: 1%;
+
+
+}
+
+.containermenor{
+  text-transform: none;
+    width: 35%;
+    padding: 2%;
+    font-size: 13px;
+}
+
+.containerinfo  div p{
+  font-family: arial;
+  
+
+}
+.cuadrado2{
+  background:#24282B ;
+  color:white;
+  font-family: arial;
+ 
+ 
+
+}
+
+aside{
+  font-family: Arial;
+  font-size: 15px;
+  background: #24282B;
+    color: #fff;
+    padding: 7% 3%;
+}
+
+
+footer{
+  background: #1293D4;
+    padding: 3%;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 600px) {
+  
+  .container {
+    flex-direction: column;
+    align-items: center;
+    width: 97%;
+    columns: 1;
+}
+.containerinfo{
+  width: 70%;
+}
+
+.containermenor{
+  width: 70%;
+  padding: 0;
+}
+
+ul li{
+  list-style: none;
+  padding: 1.5%;
+  flex-wrap: wrap;
+ }
+
+ .contenedorSuperior{
+  flex-direction: column;
+ }
+
+ form{
+  flex-direction: column;
+  display: flex;
+ }
+
+ ul li :hover {
+    border: #1293D4 solid 1px;
+    font-weight: bold;
+    border-radius: 2px;
+    color: #1293D4;
+}
+}
